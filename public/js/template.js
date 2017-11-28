@@ -513,10 +513,10 @@
 		//Full Page
 		if ($(".fullpage-site").length>0) {
 			$('.fullpage-site').fullpage({
-				anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+				anchors: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Intro', 'About', 'Portfolio', 'Clients', 'Contact Us'],
+				navigationTooltips: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600
@@ -524,10 +524,10 @@
 		}
 		if ($(".fullpage-site-with-menu").length>0) {
 			$('.fullpage-site-with-menu').fullpage({
-				anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+				anchors: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Intro', 'About', 'Menu', 'Reviews', 'Contact Us'],
+				navigationTooltips: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600,
