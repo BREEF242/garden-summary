@@ -6,6 +6,13 @@
 	<!--<![endif]-->
 
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110390109-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-110390109-3');
+    </script>
     @yield('title')
     @yield('sharing')
     @include('partials.meta')
@@ -28,9 +35,8 @@
                 <div class="header-first clearfix">
 
                   <div id="logo" class="logo">
-                    <a href="/"><img id="logo_img" src="http://res.cloudinary.com/breef/image/upload/c_scale,w_100/v1511446095/misc/breef_logo.png" alt="BREEF"></a>
+                    <a href="/"><img id="logo_img" src="{{cloudinary('c_scale,w_100/v1511446095/misc/breef_logo')}}.png" alt="BREEF Sculpture Garden"></a>
                   </div>
-
 
                 </div>
 
@@ -41,14 +47,9 @@
                   <div class="main-navigation  animated">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
                       <div class="navbar-brand clearfix hidden-lg-up">
-
-                        <!-- logo -->
                         <div id="logo-mobile" class="logo">
-                          <a href="/"><img id="logo-img-mobile" src="http://res.cloudinary.com/breef/image/upload/c_scale,w_100/v1511446095/misc/breef_logo.png" alt="BREEF Sculpture Garden"></a>
+                          <a href="/"><img id="logo-img-mobile" src="{{cloudinary('c_scale,w_100/v1511446095/misc/breef_logo')}}.png" alt="BREEF Sculpture Garden"></a>
                         </div>
-
-
-
                       </div>
                       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -56,11 +57,13 @@
                       <div class="collapse navbar-collapse scrollspy" id="navbar-collapse-1">
                         <!-- main-menu -->
                         <ul id="fullpage-menu" class="navbar-nav ml-lg-auto">
-                          <li data-menuanchor="why" class="nav-item"><a title="" href="#why" class="nav-link smooth-scroll active">WHY?</a></li>
-                          <li data-menuanchor="art" class="nav-item"><a title="" class="nav-link smooth-scroll" href="#art">ART</a></li>
-                          <li data-menuanchor="press" class="nav-item"><a title="" class="nav-link smooth-scroll" href="#press">PRESS</a></li>
-                          <li data-menuanchor="visit" class="nav-item"><a title="" class="nav-link smooth-scroll" href="#visit">VISIT</a></li>
-                          <li data-menuanchor="breef" class="nav-item"><a title="" class="nav-link smooth-scroll" href="#breef">BREEF</a></li>
+                          <li data-menuanchor="front" class="nav-item active"><a title="Introduction to the BREEF Sir Nicholas Nuttall Coral Reef Sculpture Garden" href="#front" class="nav-link smooth-scroll">Intro</a></li>
+                          <li data-menuanchor="why" class="nav-item"><a title="Why BREEF created the tropical sculpture garden to preserve Bahamian coral" href="#why" class="nav-link smooth-scroll active">Why?</a></li>
+                          <li data-menuanchor="art" class="nav-item"><a title="Underwater art exhibits at the Coral Sculpture Garden" class="nav-link smooth-scroll" href="#art">Art</a></li>
+                          <li data-menuanchor="press" class="nav-item"><a title="Media coverage received by BREEF for the world's largest underwater sculpture" class="nav-link smooth-scroll" href="#press">Press</a></li>
+                          <li data-menuanchor="photos" class="nav-item"><a title="Photos of the underwater coral sculpture taken by staff and visitors" class="nav-link smooth-scroll" href="#photos">Photos</a></li>
+                          <li data-menuanchor="visit" class="nav-item"><a title="Visit the underwater coral sculpture in Nassau as a school or tourist" class="nav-link smooth-scroll" href="#visit">Visit</a></li>
+                          <li data-menuanchor="breef" class="nav-item"><a title="About the Bahamas Reef Environment Education Foundation (BREEF)" class="nav-link smooth-scroll" href="#breef">BREEF</a></li>
                         </ul>
                         <!-- main-menu end -->
                       </div>

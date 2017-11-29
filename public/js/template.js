@@ -513,10 +513,10 @@
 		//Full Page
 		if ($(".fullpage-site").length>0) {
 			$('.fullpage-site').fullpage({
-				anchors: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
+				anchors: ['front', 'why', 'art', 'press', 'photos', 'visit', 'breef'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
+				navigationTooltips: ['front', 'why', 'art', 'press', 'photos', 'visit', 'breef'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600
@@ -524,10 +524,10 @@
 		}
 		if ($(".fullpage-site-with-menu").length>0) {
 			$('.fullpage-site-with-menu').fullpage({
-				anchors: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
+				anchors: ['front', 'why', 'art', 'press', 'photos', 'visit', 'breef'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['why', 'art', 'documentary', 'students', 'visit', 'contribute', 'breef'],
+				navigationTooltips: ['front', 'why', 'art', 'press', 'photos', 'visit', 'breef'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600,
@@ -680,10 +680,10 @@
 				autoplay: true,
 				autoplayTimeout: 5000,
 				autoplaySpeed: 700,
-				loop: true,
+				loop: false,
 				nav: true,
 				navText: false,
-				dots: false
+				dots: true
 			});
 			$("*[dir='rtl'] .owl-carousel.content-slider").owlCarousel({
 				items: 1,
@@ -701,7 +701,7 @@
 				loop: true,
 				autoplay: false,
 				nav: true,
-				dots: true
+				dots: false
 			});
 			$("*[dir='rtl'] .owl-carousel.content-slider-with-controls").owlCarousel({
 				items: 1,

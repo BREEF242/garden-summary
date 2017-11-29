@@ -1,6 +1,6 @@
 <!-- section start -->
 <!-- ================ -->
-<section id="art" data-anchor="art" class="section dark-translucent-bg" style="background-image: url(https://res.cloudinary.com/breef/image/upload/c_scale,w_1600/v1511446771/garden/P9152388.jpg);">
+<section data-anchor="art" class="section dark-translucent-bg" style="background-image: url({{cloudinary('c_scale,w_1600/v1511446771/garden/P9152388')}}.png);">
   <div class="container">
     <div class="row justify-content-lg-center">
       <div class="col-lg-8 text-center">
@@ -14,7 +14,7 @@
       <div class="col-lg-3">
         <div class="image-box text-center style-2 mb-20">
           <div class="ph-40">
-            <img src="https://res.cloudinary.com/breef/image/upload/c_scale,w_600/v1511446735/garden/atlas_sq.jpg" alt="" class="rounded-circle">
+            <img src="{{cloudinary('c_scale,w_600/v1511446735/garden/atlas_sq')}}.png" alt="BREEF Sculpture Garden Ocean Atlas Exhibit by Jason de Caires Taylor" class="rounded-circle">
           </div>
           <div class="body padding-horizontal-clear">
             <h4 class="title">Ocean Atlas</h4>
@@ -26,7 +26,7 @@
       <div class="col-lg-3">
         <div class="image-box text-center style-2 mb-20">
           <div class="ph-40">
-            <img src="https://res.cloudinary.com/breef/image/upload/c_scale,w_600/v1511555714/garden/VirtuosoMan.jpg" alt="" class="rounded-circle">
+            <img src="{{cloudinary('c_scale,w_600/v1511555714/garden/VirtuosoMan')}}.png" alt="BREEF Sculpture Garden Virtuoso Man Exhibit by Willicey Tynes" class="rounded-circle">
           </div>
           <div class="body padding-horizontal-clear">
             <h4 class="title">Virtuoso Man</h4>
@@ -38,7 +38,7 @@
       <div class="col-lg-3">
         <div class="image-box text-center style-2 mb-20">
           <div class="ph-40">
-            <img src="https://res.cloudinary.com/breef/image/upload/c_scale,w_600/v1511446705/garden/lucayan.jpg" alt="" class="rounded-circle">
+            <img src="{{cloudinary('c_scale,w_600/v1511446705/garden/lucayan')}}.png" alt="BREEF Sculpture Garden Lucayan Face Exhibit by Andret John" class="rounded-circle">
           </div>
           <div class="body padding-horizontal-clear">
             <h4 class="title">Lucayan Face</h4>
@@ -50,11 +50,12 @@
       <div class="col-lg-3">
         <div class="image-box text-center style-2 mb-20">
           <div class="ph-40">
-            <img src="https://res.cloudinary.com/breef/image/upload/c_scale,w_1600/v1511554264/garden/reef_balls.jpg" alt="" class="rounded-circle">
+            <img src="{{cloudinary('c_scale,w_1600/v1511554264/garden/reef_balls')}}.png" alt="BREEF Sculpture Garden Reef Balls from the Reef Ball Foundation" class="rounded-circle">
           </div>
           <div class="body padding-horizontal-clear">
             <h4 class="title">Reef Balls</h4>
             <p class="small mb-10">65 Additional artificial reef structures from the Reef Ball Foundation form the backbone of snorkel trails at the site.</p>
+            <p class="lead text-default">Reef Ball Foundation</p>
           </div>
         </div>
       </div>

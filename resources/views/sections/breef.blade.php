@@ -1,6 +1,6 @@
 <!-- section start -->
 <!-- ================ -->
-<section id="breef" data-anchor="breef" class="section dark-translucent-bg" style="background-image: url(https://res.cloudinary.com/breef/image/upload/c_scale,w_1600/v1511556516/garden/P5030034_1.jpg);">
+<section data-anchor="breef" class="section dark-translucent-bg" style="background-image: url(https://res.cloudinary.com/breef/image/upload/c_scale,w_1600/v1511556516/garden/P5030034_1.jpg);">
   <div class="container">
     <div class="row justify-content-lg-center">
       <div class="col-lg-8 text-center pv-20">
