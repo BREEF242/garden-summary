@@ -1,5 +1,6 @@
 <meta charset="utf-8">
 <meta name="author" content="AC" />
+<meta name="theme-color" content="#333">
 <meta property="og:url" content="{{url('/')}}">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="fb:app_id" content="your_app_id" />
