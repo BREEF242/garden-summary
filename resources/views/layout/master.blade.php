@@ -63,6 +63,7 @@
                           <li data-menuanchor="press" class="nav-item"><a title="Media coverage received by BREEF for the world's largest underwater sculpture" class="nav-link smooth-scroll" href="#press">Press</a></li>
                           <li data-menuanchor="photos" class="nav-item"><a title="Photos of the underwater coral sculpture taken by staff and visitors" class="nav-link smooth-scroll" href="#photos">Photos</a></li>
                           <li data-menuanchor="visit" class="nav-item"><a title="Visit the underwater coral sculpture in Nassau as a school or tourist" class="nav-link smooth-scroll" href="#visit">Visit</a></li>
+                          <li class="nav-item"><a title="Garden Geo-Location" class="nav-link smooth-scroll" data-toggle="popover" title="Garden Geo-Location" data-container="body" data-placement="bottom" data-html="true" data-content="Open coordinates in your geo-device (e.g. Google Maps app): <a class='btn btn-success' href='geo:25.007561,-77.550573'><i class='fa fa-map-marker'></i> 25.007561,-77.550573</a><br /><br />View in Google Maps: <a class='btn btn-info' href='https://www.google.com/maps?q=25.007561,-77.550573'><i class='fa fa-link'></i> Google Maps Link</a><br />" href="javascript:;">GPS</a></li>
                           <li data-menuanchor="breef" class="nav-item"><a title="About the Bahamas Reef Environment Education Foundation (BREEF)" class="nav-link smooth-scroll" href="#breef">BREEF</a></li>
                         </ul>
                         <!-- main-menu end -->
@@ -91,5 +92,8 @@
 
     @include('partials.footer_js')
 
+
   </body>
 </html>
+
+<!-- geo:25.007561,-77.550573 -->

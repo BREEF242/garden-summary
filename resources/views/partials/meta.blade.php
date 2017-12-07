@@ -4,6 +4,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta property="fb:app_id" content="your_app_id" />
 <meta name="twitter:site" content="@breef242">
+<meta name="geo.region" content="BS-NP" />
+<meta name="geo.placename" content="Nassau" />
+<meta name="geo.position" content="25.007561,-77.550573" />
+<meta name="ICBM" content="25.007561,-77.550573" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>

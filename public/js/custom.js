@@ -11,6 +11,9 @@
 (function($){
 	$(document).ready(function(){
 
+
+		$('[data-toggle="popover"]').popover();
+
 		// Notify Plugin - The below code (until line 42) is used for demonstration purposes only
 		//-----------------------------------------------
 		if (($(".main-navigation.onclick").length>0) && !Modernizr.touch ){
